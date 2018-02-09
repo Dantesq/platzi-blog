@@ -1,0 +1,184 @@
+
+@import "style.css";
+body{
+	margin: 0px;
+	font-family: 'Arial',sans-serif;
+}
+header{
+	background: #EFEFEF;
+
+}
+.menu-top{
+	background: #273B47;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px;
+	align-items: center;
+}
+.menu-top figure{
+	margin: 0px;
+	width: 120px;
+}
+.menu-top figure img{
+	width: 100%;
+	display: block;
+}
+.menu-top nav{
+	display: flex;
+	align-items: center;
+}
+.menu-top nav ul{
+	margin: 0px;
+	padding-left: 0px;
+	display: flex;
+}
+.menu-top nav ul span{
+	color: white;
+}
+.menu-top nav .btn-sesion{
+	color: white;
+	text-decoration:none;
+	font-size: 20px;
+	/*font-family: 'Arial',sans-serif;*/
+	background: #FF4842;
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+.menu-top nav ul li{
+	list-style: none;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.menu-top nav ul li a{
+	color:white;
+	text-decoration: none;
+	padding: 10px 5px;
+	/*font-family: 'Arial',sans-serif;*/
+	font-size: 20px;
+	border-top: 4px solid transparent;
+
+}
+.menu-top nav ul li a:hover{
+	border-top: 4px solid #7DCD40;
+	transition: .6s;
+}
+/*para buscar*/
+.contenedor{
+	width:1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.buscador{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right; /*porque no es de bloque se puede alinear*/
+
+}
+.buscador .btn-buscar{
+	background: #333333;
+	color: white;
+	padding: 5px;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+}
+.buscador .buscar{
+	padding: 4px;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 2px;
+}
+.info{
+	width: 500px;
+	/*font-family: 'Arial',sans-serif;*/
+	background: rgba(255,255,250,.7);
+	border-radius: 15px;
+	padding: 10px;
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+
+}
+.info-general{
+	margin-bottom: 50px;
+	position: relative;
+}
+.info-general figure{
+	margin: 0px;
+}
+.info-general figure img{
+	width: 100%;
+	display: block;
+}
+.persona{
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 10px;
+
+}
+.persona span{
+	margin-left: 10px;
+}
+
+.persona figure img{
+	width: 100%;
+	display: block; /*para que llene todo el figure*/
+	border-radius: 50%
+}
+.info .persona figure{
+	width: 50px;
+	margin: 0px;
+
+}
+.fecha{
+	position: absolute;
+	right: 10px;
+}
+.fila{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+}
+.columna{
+	width: 300px;
+}
+.columna figure{
+	margin: 0px;
+}
+.titulo-columnas{
+	color: #515151;
+}
+.dato-peque{
+	font-size: 13px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 40px;
+	color: #515151;
+}
+.footer span{
+	margin: 0 5px;
+}
+.footer span a{
+	margin: 0 7px;
+	text-decoration: none;
+	padding: 8px;
+	color: #515151;
+}
+
+/*.siguiente:after{
+	content: ">";
+}
+.ultimo:after{
+	content: ">>";
+}*/
+.borde{
+	border: 1px solid #cccccc;
+	background: #eaeaea;
+}
